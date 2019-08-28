@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -30,4 +31,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Drawer {
+  background-color: white;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+}
+
+.Drawer--closed {
+  left: -150px;
+}
+
+.Drawer__Action {
+  position: absolute;
+  left: 150px;
 }
